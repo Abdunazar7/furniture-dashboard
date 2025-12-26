@@ -7,7 +7,7 @@ export const FormContainer = styled.form`
   padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 16px; /* Elementlar orasidagi masofani biroz kengaytirdik */
+  gap: 16px;
 `;
 
 export const FormGroup = styled.div`

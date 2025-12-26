@@ -17,7 +17,6 @@ function CreateProductPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Product Created:", form);
-    // Bu yerda API so'rovi yuborilishi mumkin
   };
 
   return (

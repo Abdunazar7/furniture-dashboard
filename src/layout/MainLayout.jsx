@@ -7,14 +7,10 @@ import { Wrapper, Main, ChildrenContent } from "./Layout.styled";
 function MainLayout() {
   return (
     <Wrapper>
-      {/* Chap tomondagi doimiy qism (300px) */}
       <Sidebar />
 
       <Main>
-        {/* Yuqoridagi sarlavha qismi */}
         <Navbar />
-
-        {/* Ichki sahifalar (Create Product, Manage Product va h.k.) */}
         <ChildrenContent>
           <Outlet />
         </ChildrenContent>

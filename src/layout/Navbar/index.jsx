@@ -5,7 +5,6 @@ import { NavbarContainer, NavbarTitle } from "./Navbar.styled";
 function Navbar() {
   const location = useLocation();
 
-  // URL-ga qarab sarlavhani aniqlash mantiqi
   const getTitle = (path) => {
     switch (path) {
       case "/create-product":
