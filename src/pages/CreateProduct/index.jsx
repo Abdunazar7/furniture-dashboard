@@ -25,7 +25,6 @@ function CreateProductPage() {
         <label>Title</label>
         <input
           name="title"
-          placeholder="Product name"
           value={form.title}
           onChange={handleChange}
         />
@@ -36,7 +35,6 @@ function CreateProductPage() {
         <input
           name="price"
           type="number"
-          placeholder="0.00"
           value={form.price}
           onChange={handleChange}
         />
@@ -46,7 +44,6 @@ function CreateProductPage() {
         <label>Image URL</label>
         <input
           name="image"
-          placeholder="https://example.com/image.jpg"
           value={form.image}
           onChange={handleChange}
         />
@@ -55,7 +52,7 @@ function CreateProductPage() {
       <FormGroup>
         <label>Category</label>
         <select name="category" value={form.category} onChange={handleChange}>
-          <option value="">Choose category</option>
+          <option value="">Tanlang</option>
           <option value="phone">Phone</option>
           <option value="laptop">Laptop</option>
           <option value="accessory">Accessory</option>
@@ -66,7 +63,6 @@ function CreateProductPage() {
         <label>Description</label>
         <textarea
           name="desc"
-          placeholder="Write about product..."
           value={form.desc}
           onChange={handleChange}
         />
